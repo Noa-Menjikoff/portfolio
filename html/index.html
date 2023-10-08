@@ -21,12 +21,12 @@
     </nav>
     <div class="div-arriver">
         <div class="infos">
-            <h1>Je Suis Noa Menjikoff--Guillot</h1>
+            <h1>Je Suis Noa Menjikoff</h1>
             <p>I have a passion for programming and have completed multiple personal projects to enhance my skills, my portfolio showcases my most recent projects and demonstrates my abilities as a developer.</p>
             <a href="#">More</a>
         </div>
         <div class="img-droite">
-            <img src="/img/image.webp" alt="">
+            <img src="../img/image.webp" alt="">
         </div>
     </div> 
 
@@ -39,34 +39,51 @@
                 <a href="#">Contact Me</a>
             </div>
             <div class="img-droite">
-                <img src="/img/image.webp" alt="">
+                <img src="../img/image.webp" alt="">
             </div>
         </div>
     </div>
 
-    <div>
-        <h1 class="title">What Services I'm Providing</h1>
+    <div class="dcard">
+        <h1 class="title"><span>My Projects</span></h1>
         <div id="app" class="container">
           <card data-image="../img/image.webp">
-            <h1 slot="header">Canyons</h1>
+            <h1 slot="header">VAE</h1>
             <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
           </card>
           <card data-image="../img/image.webp">
-            <h1 slot="header">Beaches</h1>
+            <h1 slot="header">Festiut'O</h1>
             <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
           </card>
           <card data-image="../img/image.webp">
-            <h1 slot="header">Trees</h1>
+            <h1 slot="header">Space Invader</h1>
             <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
           </card>
           <card data-image="../img/image.webp">
-             <h1 slot="header">Lakes</h1>
+            <h1 slot="header">Demineur</h1>
             <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <a href="#" slot="content">aaaaa</a>
           </card>
         </div>
     </div>
 
-
+    <div class="contact-me">
+        <h1><span>Contact Me</span></h1>
+        <div class="con">
+            <form id="contact-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+    
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Your Email Address" required>
+    
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+    
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
 

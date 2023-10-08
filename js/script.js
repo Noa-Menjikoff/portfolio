@@ -94,3 +94,22 @@ Vue.component('card', {
 const app = new Vue({
   el: '#app'
 });
+
+
+// script.js
+document.getElementById("contact-form").addEventListener("submit", function (e) {
+  e.preventDefault(); // Empêche l'envoi du formulaire par défaut
+
+  // Récupérer les valeurs des champs
+  var name = document.getElementById("name").value;
+  var email = document.getElementById("email").value;
+  var message = document.getElementById("message").value;
+
+  // Vous pouvez traiter les données ici, par exemple, les envoyer à un serveur ou les afficher
+  console.log("Nom: " + name);
+  console.log("Email: " + email);
+  console.log("Message: " + message);
+
+  // Réinitialiser le formulaire
+  document.getElementById("contact-form").reset();
+});
