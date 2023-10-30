@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="Bienvenue">
+        <h1 class="txt"><span>Bienvenue</span></h1>
+    </div>
+    <nav>
+        <div class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="div-arriver">
+        <div class="infos">
+            <h1>Je Suis Noa Menjikoff</h1>
+            <p>I have a passion for programming and have completed multiple personal projects to enhance my skills, my portfolio showcases my most recent projects and demonstrates my abilities as a developer.</p>
+            <a href="#">More</a>
+        </div>
+        <div class="img-droite">
+            <img src="../img/image.webp" alt="">
+        </div>
+    </div> 
+
+    <div class="about-me">
+        <h1><span>About Me</span></h1>
+        <div class="about-me-2">
+            <div class="about-gauche">
+                <h2><span>Experienced Developer Showcasing Skills and Projects</span></h2>
+                <p>I am passionate about programming and have undertaken various personal projects to enhance my skills. My portfolio showcases my most recent projects and demonstrates my abilities as a developer. I have a strong dedication to continuously improving my programming knowledge and staying up-to-date with the latest technologies. With a formal tone, I strive to approach each project with meticulous attention to detail and a commitment to delivering high-quality code.</p>
+                <a href="#">Contact Me</a>
+            </div>
+            <div class="img-droite">
+                <img src="../img/image.webp" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="dcard">
+        <h1 class="title"><span>My Projects</span></h1>
+        <div id="app" class="container">
+          <card data-image="../img/image.webp">
+            <h1 slot="header">VAE</h1>
+            <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </card>
+          <card data-image="../img/image.webp">
+            <h1 slot="header">Festiut'O</h1>
+            <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </card>
+          <card data-image="../img/image.webp">
+            <h1 slot="header">Space Invader</h1>
+            <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </card>
+          <card data-image="../img/image.webp">
+            <h1 slot="header">Demineur</h1>
+            <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <a href="#" slot="content">aaaaa</a>
+          </card>
+        </div>
+    </div>
+
+    <div class="contact-me">
+        <h1><span>Contact Me</span></h1>
+        <div class="con">
+            <form id="contact-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+    
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Your Email Address" required>
+    
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+    
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
