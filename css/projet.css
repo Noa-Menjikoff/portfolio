@@ -222,9 +222,7 @@ a {
     }
   }
 
-  .act {
-    opacity: 1;
-  }
+
   
   .pagination li:hover {
     opacity: 1;
@@ -236,7 +234,6 @@ a {
     width: 10px;
     height: 10px;
     margin: 5px;
-    opacity: 0.3;
     cursor: pointer;
     background: #000;
     border-radius: 100%;
@@ -244,15 +241,21 @@ a {
     background-size: cover;
     background-position: center;
   }
+  .passiv{
+    opacity: 0.3;
+  }
   
+  .act {
+    opacity: 1;
+  }
   
-  #s1 {background-image: url(/img/VAE/page1.png); background-size: cover; background-position: center;}
-  #s2 {background-image: url(/img/VAE/page2.png); background-size: cover; background-position: center;}
-  #s3 {background-image: url(/img/VAE/page3.png); background-size: cover; background-position: center;}
-  #s4 {background-image: url(/img/VAE/page4.png); background-size: cover; background-position: center;}
-  #s5 {background-image: url(/img/VAE/page5.png); background-size: cover; background-position: center;}
-  #s6 {background-image: url(/img/VAE/page6.png); background-size: cover; background-position: center;}
-  #s7 {background-image: url(/img/VAE/page7.png); background-size: cover; background-position: center;}
-  #s8 {background-image: url(/img/VAE/page8.png); background-size: cover; background-position: center;}
+  #s1_vae {background-image: url(/img/VAE/page1.png); background-size: cover; background-position: center;}
+  #s2_vae {background-image: url(/img/VAE/page2.png); background-size: cover; background-position: center;}
+  #s3_vae {background-image: url(/img/VAE/page3.png); background-size: cover; background-position: center;}
+  #s4_vae {background-image: url(/img/VAE/page4.png); background-size: cover; background-position: center;}
+  #s5_vae {background-image: url(/img/VAE/page5.png); background-size: cover; background-position: center;}
+  #s6_vae {background-image: url(/img/VAE/page6.png); background-size: cover; background-position: center;}
+  #s7_vae {background-image: url(/img/VAE/page7.png); background-size: cover; background-position: center;}
+  #s8_vae {background-image: url(/img/VAE/page8.png); background-size: cover; background-position: center;}
   
   

@@ -1,8 +1,8 @@
 $(function(){
     let current_view = 0;
     let count_views = $('.carrousel .screens li').length;
-    
-    // Methodes
+
+    // Méthodes
     let switch_view = function(id){
         if(id >= 0  &&  id <= count_views)
             current_view = id;
@@ -16,7 +16,7 @@ $(function(){
             console.log('Ajout de la page', i);
         }
     };
-    
+
     let update_view = function(){
         // Calculate the current state
         let view0 = current_view;
@@ -31,7 +31,11 @@ $(function(){
         $('.carrousel .screens li:nth-child('+view0+')').addClass('left');
         $('.carrousel .screens li:nth-child('+view2+')').addClass('right');
         $('.carrousel .pagination li:nth-child('+view1+')').addClass('act');
+
+        // Ajoute la classe passiv aux autres éléments actifs de la pagination
+        $('.carrousel .pagination li').addClass('passiv');
     };
+
     $('.carrousel .screens li').click(function(e){
         let classes = $(e.target).attr('class');
         if(classes.includes('left')) {
@@ -48,7 +52,7 @@ $(function(){
         }
         update_view();
     });
-    
+
     init_pagination();
     update_view();
 });
