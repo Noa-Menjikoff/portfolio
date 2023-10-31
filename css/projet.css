@@ -246,7 +246,7 @@ a {
   }
   
   
-  #s1 {background-image: url(/img/VAE/page1.png); background-size: cover; background-position: center;}
+  #s1 {background-image: url(img/VAE/page1.png); background-size: cover; background-position: center;}
   #s2 {background-image: url(/img/VAE/page2.png); background-size: cover; background-position: center;}
   #s3 {background-image: url(/img/VAE/page3.png); background-size: cover; background-position: center;}
   #s4 {background-image: url(/img/VAE/page4.png); background-size: cover; background-position: center;}
