@@ -249,7 +249,7 @@ a {
     opacity: 1;
   }
   
-  #s1_vae {background-image: url(/img/VAE/page1.png); background-size: cover; background-position: center;}
+  #s1_vae {background-image: url(img/VAE/page1.png); background-size: cover; background-position: center;}
   #s2_vae {background-image: url(/img/VAE/page2.png); background-size: cover; background-position: center;}
   #s3_vae {background-image: url(/img/VAE/page3.png); background-size: cover; background-position: center;}
   #s4_vae {background-image: url(/img/VAE/page4.png); background-size: cover; background-position: center;}
